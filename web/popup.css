@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2019, 11:06:39 AM
+    Author     : ASUS
+*/
+
+<!-- style untuk pop up -->
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+          
+/* The popup form */
+  .form-popup {
+    position: fixed;
+    top: 100px;
+    right: 500px;
+    left: 500px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+          
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+          
+/* Set a style for the submit/login button */
+    .form-container .btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+            
+/* Add some hover effects to buttons */
+.form-container .btn:hover{
+    opacity: 1;
+}
+            

@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 4, 2019, 6:54:36 AM
+    Author     : ASUS
+*/
+*{margin: 0px auto;
+padding: 0;}
+html, body{
+    height: 100%;
+}
+#container{
+    min-height: 1300px;
+    background-color: #0066cc;
+}
+#header{
+    height: 75px;
+    background: #fff;
+    color: #000;
+}
+#main{
+    overflow: auto;
+    padding-bottom: 40px;
+}
+#footer{
+    height: 30px;
+    background: #fff;
+    color: #000;
+    margin-top: -30px;
+    clear: both;
+    position: relative;
+}
+#title-header{
+    padding-left: 20px;
+}
+#icon-button{
+    margin-top: 11px;
+}
+.notification{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    margin-top: 0px;
+}
+#badge{
+    position: absolute;
+    top: -0px;
+    right: -0px;
+}
+span{
+    font-size: 12px;
+    align-content: center;
+}
+#button-logout{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#nav-samping{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    opacity: 0.85;
+    filter: alpha(opacity:85);/*For IE8 and earlier*/
+    position: absolute;
+    left: 0px;
+    height: 400px;
+    overflow: auto;
+}
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li img{
+    display: block;
+    color: #000;
+    padding: 8px 56px;
+    text-decoration: none;
+    height: 64px;
+}
+li img a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 64px;
+}
+li a.active{
+    background-color: white;
+    color: white;
+}
+li a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+li a.current{
+    background: #ff3300;
+    color: white;
+    opacity: 0.5;
+}
+#panel-content{
+    opacity: 0.8;
+    filter: alpha(opacity=70);/*For IE8 and earlier*/
+    position: absolute;
+    right: 0px;
+    margin-top: 100px;
+    margin-right: 50px;
+    width: 75%;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
